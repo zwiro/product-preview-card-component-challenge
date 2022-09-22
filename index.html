@@ -29,7 +29,10 @@
 
 <body>
   <main>
-    <img src="images/image-product-desktop.jpg" alt="Picture of the product" class="product-img">
+    <picture>
+      <source media="(max-width:600px)" srcset="images/image-product-mobile.jpg">
+      <img src="images/image-product-desktop.jpg" alt="Picture of the product" class="product-img">
+    </picture>
     <div class="product-card">
       <p class="product-category">Perfume</p>
 
