@@ -216,5 +216,9 @@ main {
     .product-desc {
         font-size: 0.9rem;
     }
-
 }
+
+@-moz-document url-prefix() {
+    .product-card {
+        width: 83%;
+    }
